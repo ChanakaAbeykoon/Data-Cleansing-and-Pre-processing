@@ -1,0 +1,49 @@
+Project to provide Incentive (Cash Grant) for the production of Plant Nutrients from Natural Sources in solid form for paddy cultivation 2021/22 Maha Season
+ 
+In 2021/22, the Sri Lankan Government decided to provide a cash grant for the farmers who produce Plant Nutrients from Natural Sources for their paddy lands. Here, the responsibility and task of selecting qualified farmers and providing the cash grant to their bank account itself  was assigned to the Information Management Unit of the Department of Agrarian Development.
+
+As the authority to carry out the entire work, the biggest challenge that faced me first was the responsibility of selecting the right and qualified farmers. That is because there is no specific farmer who cultivates a specific paddy land in Sri Lanka.In every season, new farmers are added and some farmers are replaced.
+
+So, I had to collect data from ground level staff of the department.
+
+For that, I had to focus on the following points.
+  1.What data we need to collect from farmers.
+  2.How we collect and what is the easiest way to collect the data. 
+  3.What strategies need to improve the accuracy of data. 
+  4.How can we reduce the time taken to collect data?
+  5.How to reduce data inaccuracy and duplicating.
+
+1. 
+We needed to collect farmers' sensitive data such as bank account numbers, Identity card numbers,etc. In Sri Lanka, collecting correct data is not an easy task, especially sensitive data. 
+And we needed to have a unique key. For that i introduced a generalized code to enter each data. Eg:
+	DistrictCode/Agrarian Services Center code/GN division code/Bank code/Increment Number - 01/05/00565N/02/001235
+By this code, we can identify each farmer's location and which bank account they hold.
+
+2.
+I wanted to think about the accuracy of data. The task of data collection should be easy to perform from low knowledge level officers to high knowledge level officers. Hence it was decided to collect the data through MS Excel. For this I created an excel sheet with data validations.
+
+
+
+3.
+When we collect the data from excel we need to focus on accuracy of the data since we collect data such as bank account numbers and identity card numbers. I had to collaborate with four government banks and had to ask their validations in the bank account numbers. 
+I got the validations related to each bank and added those to the excel sheets. Hence, officers cannot add wrong bank account numbers and this prevents the mistypes as well. 
+
+The biggest challenge that I had to face is that some officers copy and paste to the excel sheet from other locations instead of typing. When pasting to the excel sheet, it breaks validations we have given and paste it as it is. This problem was a big headache.
+
+4.
+I only had 3 months to collect data and deposit the amount for the farmers. The time frame was very tight in that period. I had to limit the time to collect data to 1.5 months. I wanted to give some training for the officers who collect the data. For that, I used Zoom sessions to train them since at that time there was a covid 19 pandemic. That helped me to reduce the time.
+
+5.
+ Once I got the data from 25 districts, then began my expertise in handling missing and null values, Error checking, Data cleansing, and Removing duplicates.
+
+For that i created another excel sheet to check the errors. Then I created a NIC check sheet to check NIC errors. This Excel sheet had to be created to correct the deficiencies caused by entering data by copy paste as mentioned earlier. It took longer than I expected to cleanse the data. And also,I found a method to identify the bank branch codes that do not exist in Sri lanka.
+You can find all the functions and validations that I used to clean and pre-process the data set in the Excel files attached. 
+
+Excel sheets created by me:
+	Validation Checker.xlsx
+	NIC Checker.xlsx
+	data to be added.xlsx
+
+
+
+
